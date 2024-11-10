@@ -1,45 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>ToDo List</h1>
+    </center>
+    
+    <hr>
+    <br>
+    
+    <center>
+    <input id="one" placeholder="ListName">
+    <button onclick="add()">Add</button>
+    <ul id="list-container">
+        <li>
+            Hello  <button onclick="deleteitem(event)">Delete</button>
+        </li>    
+    </ul>
+    </center>
+    
+    <br>
+    <hr>
+    <center>
+    <h1>Thank You</h1>
+    </center>
+</body>
+</html>
+
 <link rel="stylesheet" href="style.css">
-<center>
-    <h1>ToDo List</h1>
-</center>
-
-<hr>
-<br>
-
-<center>
-<input id="one" placeholder="ListName">
-<button onclick="add()">Add</button>
-<ul id="list-container">
-    <li>
-        Hello  <button onclick="deleteitem(event)">Delete</button>
-    </li>    
-</ul>
-</center>
-
-<br>
-<hr>
-<center>
-<h1>Thank You</h1>
-</center>
-
-<script>
-var ul =  document.getElementById("list-container")
-
-var one = document.getElementById("one")        
-
-function add()
-    {
-     var listitem = document.createElement("li") 
-     
-     listitem.innerHTML = one.value + "<button onclick='deleteitem(event)'>Delete</button>"
-     
-     ul.append(listitem)
-    }
-
-         
-function deleteitem(event)
-{
-   event.target.parentElement.remove()
-}
-
-</script>
+<script src="script.js"></script>
