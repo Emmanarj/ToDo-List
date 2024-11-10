@@ -1,22 +1,41 @@
 *{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 
 }
 
 button{
     color: gray;
+    border-color: black;
+    border-radius: 7px;
 }
 
 button:hover{
-    color: white;
+    color: purple;
 }
 
-h1{
-    color: bisque;
+#h11{
+    color: purple;
 }
 
 #list-container
 {
    list-style-type: none;
 }
+
+#div1{
+    padding: 50px;
+    background-color:blueviolet;
+    display: inline-block;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+}
+
+ul,li{
+    background-color: blueviolet;
+    color: white;
+    font-size: large;
+
+}
+
