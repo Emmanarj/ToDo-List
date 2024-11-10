@@ -1,0 +1,22 @@
+*{
+  background-color: black;
+  color: white;
+
+}
+
+button{
+    color: gray;
+}
+
+button:hover{
+    color: white;
+}
+
+h1{
+    color: bisque;
+}
+
+#list-container
+{
+   list-style-type: none;
+}
